@@ -1,0 +1,42 @@
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}​
+html, body {
+  height:100%;
+}
+html {
+  display:table; 
+  width:100%;
+}
+body {
+  display:table-cell; 
+  text-align:center; 
+  vertical-align:middle;
+  font-family: Arial;
+  background-color: #E6FFE6;
+}
+table {
+  margin-left:auto; 
+  margin-right:auto;
+}
+h1 {
+  color: #E6FFE6;
+  background-color: black;
+  padding: 20px;
+}
+input[type=button] {
+  background-color: black;
+  border: 2 px solid black;
+  color: #E6FFE6;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+input[type=button]:hover {
+  background-color: #E6FFE6; /* Green */
+  color: black;
+}
